@@ -50,7 +50,7 @@
         <input type="text" id="enemigos" name="enemigos" value="<%= (Array.isArray(hero.enemigos)  ? hero.enemigos.join('-') : (hero.enemigos || '')) || '' %>" class="w-100 mt-1 border border-green-100 text-green-600"> <br>
         
         <div class="flex justify-end items-center gap-5 mt-4">
-            <a href="http://localhost:3000/api/"  class="text-white bg-blue-400 py-1 px-4 rounded-xs flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+            <a href="/api"  class="text-white bg-blue-400 py-1 px-4 rounded-xs flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
             <path fill-rule="evenodd" d="M20.239 3.749a.75.75 0 0 0-.75.75V15H5.549l2.47-2.47a.75.75 0 0 0-1.06-1.06l-3.75 3.75a.75.75 0 0 0 0 1.06l3.75 3.75a.75.75 0 1 0 1.06-1.06L5.55 16.5h14.69a.75.75 0 0 0 .75-.75V4.5a.75.75 0 0 0-.75-.751Z" clip-rule="evenodd" />
             </svg>  Retroceder</a>
         <button type="submit" class="text-white bg-green-400 py-1 px-4 rounded-xs cursor-pointer">Crear Heroe</button>
