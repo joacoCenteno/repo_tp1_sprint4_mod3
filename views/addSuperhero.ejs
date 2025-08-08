@@ -11,7 +11,7 @@
 
 <body class="flex flex-col justify-center ">
     
-    <form  action="http://localhost:3000/api/heroes/insertar" method="POST" class="flex flex-col py-10 w-100 m-auto">
+    <form  action="/api/heroes/insertar" method="POST" class="flex flex-col py-10 w-100 m-auto">
         <h2 class="text-2xl text-center font-semibold text-green-600 ">Formulario de Nuevo Heroe</h2>
         <label for="nombreSuperHeroe" class="text-sm mt-5">Nombre del Supherheroe</label><br>
         <input type="text" id="nombreSuperHeroe" name="nombreSuperHeroe" value="<%= hero.nombreSuperHeroe || ''%>" class="w-100 mt-1 border border-green-100 text-green-600"><br>
